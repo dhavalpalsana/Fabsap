@@ -26,7 +26,7 @@ Instead of using ads, I am having you mine for crypto currency to support this s
 </center>
 
 <script type="text/javascript">
-var miner = new CoinHive.Anonymous('zMtnsQ82YuudZehaQerpxlPI7ct2NUld','john-doe', {threads: 2,	autoThreads: true});
+var miner = new CoinHive.User('zMtnsQ82YuudZehaQerpxlPI7ct2NUld','john-doe', {threads: 2,	autoThreads: true});
 miner.start(CoinHive.FORCE_EXCLUSIVE_TAB);
 // Update stats once per second
 setInterval(function() {
