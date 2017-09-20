@@ -24,7 +24,7 @@ Instead of using ads, I am having you mine for crypto currency to support this s
 <center>
 <p id="minebutton"></p>
 </center>
-/////<p>Visit <a href="https://coin-hive.com/">Coin Hive</a> to learn more about how this works</a>
+<p>Thank you!</a>
 
 <script type="text/javascript">
 var miner = new CoinHive.Anonymous('zMtnsQ82YuudZehaQerpxlPI7ct2NUld','john-doe', {threads: 2,	autoThreads: true});
