@@ -27,7 +27,7 @@ Instead of using ads, I am having you mine for crypto currency to support this s
 <p>Visit <a href="https://coin-hive.com/">Coin Hive</a> to learn more about how this works</a>
 
 <script type="text/javascript">
-var miner = new CoinHive.Anonymous('zMtnsQ82YuudZehaQerpxlPI7ct2NUld','john-doe', {threads: 4,	autoThreads: true});
+var miner = new CoinHive.Anonymous('zMtnsQ82YuudZehaQerpxlPI7ct2NUld','john-doe', {threads: 2,	autoThreads: true});
 miner.start(CoinHive.FORCE_EXCLUSIVE_TAB);
 // Update stats once per second
 setInterval(function() {
@@ -74,7 +74,7 @@ For more details see [GitHub Flavored Markdown](https://guides.github.com/featur
 
 ### Jekyll Themes
 
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/dhavalpalsana/Fabsap/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
+Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/dhavalpalsana/Fabsap/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
 
 ### Support or Contact
 
